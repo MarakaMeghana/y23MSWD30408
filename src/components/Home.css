@@ -1,0 +1,25 @@
+/* src/Components/Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    height: 100vh;           /* Full viewport height */
+    text-align: center;      /* Centers text inside the elements */
+    background-color: #f5f5f5; /* Optional: Add a background color */
+    padding: 20px;           /* Optional: Add some padding */
+    box-sizing: border-box;  /* Ensures padding doesn't affect total height */
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space between h1 and p */
+    color: #333; /* Optional: Change text color */
+  }
+  
+  .home-container p {
+    font-size: 1.2rem; /* Adjust the size as needed */
+    color: #666; /* Optional: Change text color */
+  }
+  
